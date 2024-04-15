@@ -1,0 +1,73 @@
+h2 {
+    margin: 10px 0;
+    font-size: 30px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.icons {
+    display: flex;
+    gap: 20px;
+}
+
+.icons i {
+    font-size: 50px;
+    color: var(--light-green);
+}
+
+.redes {
+    padding-top: 15px;
+    display: flex;
+
+}
+
+.redes a i {
+    color: var(--gray);
+    transition: 0.3s;
+    font-size: 24px;
+    text-decoration: none;
+    transition: 0.5s;
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 0px 5px;
+    border-color: var(--gray);
+}
+
+.redes a i:hover {
+    background-color: var(--light-green);
+    border-color: var(--light-green);
+    color: var(--gray)
+}
+
+
+@media (max-width: 900px) {
+    .form {
+        flex-direction: column;
+
+    }
+
+    .datos {
+        width: 70%;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .info {
+        width: 70%;
+
+    }
+
+}

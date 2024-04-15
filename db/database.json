@@ -1,0 +1,133 @@
+{
+  "users": [
+    {
+      "id": "d41c",
+      "name": "Daniel",
+      "email": "danielsanchezm92@gmail.com",
+      "password": "Daniel55600*"
+    },
+    {
+      "id": "9cd0",
+      "name": "Daniel",
+      "email": "diseno2@2hemisferios.com",
+      "password": "Daniel55600*"
+    }
+  ],
+  "contacts": [
+    {
+      "id": "a036",
+      "nombre": "Daniel",
+      "telefono": "321",
+      "email": "danielsanchezm92@gmail.com",
+      "mensaje": "Me cantan su página!!"
+    }
+  ],
+  "ecoalertas": [
+    {
+      "id": "e315",
+      "name": "Daniel",
+      "email": "danielsanchezm92@gmail.com",
+      "address": "calle 37",
+      "phone": "3116353922",
+      "photo": "https://www.iberdrola.com/documents/20125/40615/suelo_746x419.jpg",
+      "city": "Medellín",
+      "message": "Contaminación"
+    },
+    {
+      "id": "dd70",
+      "name": "Daniel",
+      "email": "diseno2@2hemisferios.com",
+      "address": "calle 37",
+      "phone": "3116353922",
+      "photo": "https://www.iberdrola.com/documents/20125/40615/suelo_746x419.jpg",
+      "city": "Medellín",
+      "message": "Otra ecoalerta"
+    }
+  ],
+  "boletin": [
+    {
+      "id": "cf93",
+      "email": "danielsanchezm92@gmail.com"
+    }
+  ],
+  "productos": [
+    {
+      "id": "1",
+      "nombre": "Kit toallas reutilizables",
+      "precio": "75000",
+      "imagen": "https://static.wixstatic.com/media/be3b96_85b96c9f373641ca93879dc8b639bfef~mv2.jpg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/be3b96_85b96c9f373641ca93879dc8b639bfef~mv2.jpg"
+    },
+    {
+      "id": "2",
+      "nombre": "Termo Silicona",
+      "precio": "50000",
+      "imagen": "https://static.wixstatic.com/media/be3b96_f8a30d07c1ae4f2ba75ae581d7786f45~mv2.jpg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/be3b96_f8a30d07c1ae4f2ba75ae581d7786f45~mv2.jpg"
+    },
+    {
+      "id": "3",
+      "nombre": "Pitillo de Acero",
+      "precio": "12000",
+      "imagen": "https://static.wixstatic.com/media/be3b96_3989ffea03d842bc84b67e989857c412~mv2.jpg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/be3b96_3989ffea03d842bc84b67e989857c412~mv2.jpg"
+    },
+    {
+      "id": "4",
+      "nombre": "Hilo Dentral Biodegradable",
+      "precio": "20000",
+      "imagen": "https://static.wixstatic.com/media/be3b96_9e3ef411b59a44d8a953962655b093ec~mv2.jpg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/be3b96_9e3ef411b59a44d8a953962655b093ec~mv2.jpg"
+    },
+    {
+      "id": "5",
+      "nombre": "Jabon Multiusos",
+      "precio": "7000",
+      "imagen": "https://www.cerowasteshop.com/cdn/shop/files/Jabon-Facial-Piel-Seca_480x.jpg?v=1693261669"
+    },
+    {
+      "id": "6",
+      "nombre": "Vaso de Caña de Azúcar",
+      "precio": "15000",
+      "imagen": "https://media.cleanbarcelona.com/c/product/vaso-ecologico-desechable-de-cana-de-azucar-250x250_bO2gBJn.jpg"
+    },
+    {
+      "id": "7",
+      "nombre": "Desodorante Solido",
+      "precio": "11000",
+      "imagen": "https://www.cerowasteshop.com/cdn/shop/products/Desodorante-Natural-Para-Humor-Fuerte-Con-Bicarbonato_480x.jpg?v=1626385887"
+    },
+    {
+      "id": "8",
+      "nombre": "Cera para Peinar",
+      "precio": "11000",
+      "imagen": "https://www.cerowasteshop.com/cdn/shop/products/Vela-Espiritu-Alegre_480x.jpg?v=1668547222"
+    },
+    {
+      "id": "9",
+      "nombre": "Bolsas de Tela",
+      "precio": "9000",
+      "imagen": "https://static.wixstatic.com/media/be3b96_53eb991a75ac464baf14b6be2d907113~mv2.jpg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/be3b96_53eb991a75ac464baf14b6be2d907113~mv2.jpg"
+    },
+    {
+      "id": "10",
+      "nombre": "Cucharas de Madera",
+      "precio": "5500",
+      "imagen": "https://static.wixstatic.com/media/be3b96_1aa2a4921d21471ca8af29966a2d1ea8~mv2.jpg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/be3b96_1aa2a4921d21471ca8af29966a2d1ea8~mv2.jpg"
+    },
+    {
+      "id": "11",
+      "nombre": "Máquina de Afeitar Recargable",
+      "precio": "40000",
+      "imagen": "https://static.wixstatic.com/media/be3b96_99c8cfd062a340d0b629123570b256d6~mv2.jpg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/be3b96_99c8cfd062a340d0b629123570b256d6~mv2.jpg"
+    },
+    {
+      "id": "12",
+      "nombre": "Shampoo Sólido",
+      "precio": "17000",
+      "imagen": "https://static.wixstatic.com/media/be3b96_e9b5781afb924f6cba30e29be87d4f28~mv2.jpg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/be3b96_e9b5781afb924f6cba30e29be87d4f28~mv2.jpg"
+    },
+    {
+      "id": "13",
+      "nombre": "Cloro Orgánico",
+      "precio": "8000",
+      "imagen": "https://static.wixstatic.com/media/be3b96_6eb1ce7c3117481c8b47094f1cb860ec~mv2.jpg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/be3b96_6eb1ce7c3117481c8b47094f1cb860ec~mv2.jpg"
+    }
+  ]
+}

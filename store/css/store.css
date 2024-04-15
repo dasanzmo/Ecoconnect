@@ -1,0 +1,83 @@
+a i {
+  font-size: 50px;
+}
+
+.productos {
+  flex-wrap: wrap;
+}
+
+.title-card {
+  font-size: 20px;
+}
+
+.body {
+  padding: 30px;
+}
+
+i {
+  font-size: 25px;
+}
+
+.nav {
+  top: 0;
+  font-size: 14px;
+}
+
+.body-cart {
+  min-height: 100vh !important;
+}
+
+label{
+  width: 100%;
+}
+
+.botones button {
+  padding: 15px 25px;
+  font-size: 12px;
+  margin-top: 10px;
+  background: var(--dark-green);
+  border-radius: 30px;
+  color: var(--white) !important;
+}
+
+.botones {
+  display: flex;
+  justify-content: space-between;
+}
+
+.botones a button{
+  background: var(--light-green);
+  color: var(--gray) !important;
+}
+
+.productos .card {
+  height: 70vh;
+}
+
+select {
+  height: 52px;
+  font-size: 16px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  padding: 0px 20px;
+  width: 100%;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  background-color: #fff;
+}
+
+button.btn.btn-cart {
+  background: var(--light-green);
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 0;
+  height: 60px;
+}
+
+.eliminar, .sumar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--dark-green);
+  border: 0;
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Administración | Eco-connect</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/x-icon" href="/global/images/favicon.svg" />
+
+    <!-- ========================= CSS here ========================= -->
+    <link rel="stylesheet" href="../global/css/reset.css">
+    <link rel="stylesheet" href="../global/css/header.css">
+    <link rel="stylesheet" href="../global/css/footer.css">
+    <link rel="stylesheet" href="../global/css/global.css">
+    <link rel="stylesheet" href="../global/css/animate.css" />
+    <link rel="stylesheet" href="../global/css/LineIcons.3.0.css" />
+    <link rel="stylesheet" href="../global/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/admin.css">
+
+</head>
+
+<body class="admin">
+
+    <section class="main-container">
+
+        <div class="container-fluid">
+            <div class="row flex-nowrap">
+
+                <div class="col-auto col-md-3 col-xl-2 p-5 py-0 menu-admin">
+                    <div class="menuLateral">
+                        <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-5 text-white min-vh-100">
+                            <a href="/admin/index.html"
+                                class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                                <span class="fs-5 d-none d-sm-inline"><img width="150px"
+                                        src="/global/images/logo/white-logo.svg"></span>
+                            </a>
+                            <ul class="nav nav-pills flex-column mb-sm-auto mb-0 pt-5 align-items-center align-items-sm-start"
+                                id="menu">
+                                <li>
+                                    <a href="/index.html" target="_blank" class="nav-link px-0 align-middle">
+                                        <i class="lni lni-arrow-left"></i> <span
+                                            class="ms-1 d-none d-sm-inline">Regresar a la web</span></a>
+                                </li>
+                                <li>
+                                    <a href="#usuarios" class="nav-link px-0 align-middle">
+                                        <i class="lni lni-users"></i> <span
+                                            class="ms-1 d-none d-sm-inline">Usuarios</span></a>
+                                </li>
+                                <li>
+                                    <a href="#ecoalertas" class="nav-link px-0 align-middle">
+                                        <i class="lni lni-warning"></i> <span
+                                            class="ms-1 d-none d-sm-inline">Ecoalertas</span></a>
+                                </li>
+                                <li>
+                                    <a href="#submissions" class="nav-link px-0 align-middle">
+                                        <i class="lni lni-envelope"></i> <span
+                                            class="ms-1 d-none d-sm-inline">Submissions</span></a>
+                                </li>
+                                <li>
+                                    <a href="#newsletter" class="nav-link px-0 align-middle">
+                                        <i class="lni lni-archive"></i> <span
+                                            class="ms-1 d-none d-sm-inline">Boletín</span></a>
+                                </li>
+                            </ul>
+                            <hr>
+                            <div class="dropdown pb-4">
+                                <a href="#"
+                                    class="d-flex align-items-center text-white text-decoration-none dropdown-toggle"
+                                    id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <img src="https://i.pinimg.com/originals/7d/34/d9/7d34d9d53640af5cfd2614c57dfa7f13.png"
+                                        alt="hugenerd" width="30" height="30" class="rounded-circle">
+                                    <span id="username" class="d-none d-sm-inline mx-1"></span>
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark text-small shadow"
+                                    aria-labelledby="dropdownUser1">
+                                    <li><a class="dropdown-item" id="logout" href="#">Salir</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col p-5 info">
+
+                    <div class="usuarios p-5 mb-5 cont-info" id="usuarios">
+                        <h2 class="mb-3">Usuarios:</h2>
+                    </div>
+                    <div class="ecoalertas p-5 mb-5 cont-info" id="ecoalertas">
+                        <h2 class="mb-3">Ecolertas recibidas:</h2>
+                        <div class="row">
+                            
+                        </div>
+                    </div>
+                    <div class="submissions p-5 mb-5 flex-row" id="submissions">
+                        <h2 class="mb-3">Contactos recibidos por el sitio:</h2>
+                    </div>
+                    <div class="newsletter p-5 mb-5 flex-row" id="newsletter">
+                        <h2 class="mb-3">Suscripciones al boletín:</h2>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- ========================= JS here ========================= -->
+    <script src="../global/js/wow.min.js"></script>
+    <script type="module" src="js/admin.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
