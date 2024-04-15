@@ -336,6 +336,7 @@ async function verifyLogin(loginForm, email, password) {
             }
             else{
                 console.log(response);
+                console.log(data);
                 showError("El usuario no existe");
             }
         } catch (error) {
