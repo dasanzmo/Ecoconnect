@@ -319,7 +319,7 @@ async function verifyLogin(loginForm, email, password) {
         console.log("validado");
 
         try {
-            const URLdb = "http://localhost:3000/users";
+            const URLdb = "/db/database.json";
             const response = await fetch(`${URLdb}?email=${email.value}`);
             const data = await response.json();
             if (data.length) {
